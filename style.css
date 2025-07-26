@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --accent-color:#8672;
+    --base-color:white;
+    --text-color:#2e2b41;
+    --input-color:#f3f0ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: poppins,'Segoe UI',sans-serif;
+    font-size: 12pt;
+    color:var(--text-color);
+    text-align: center;
+}
+body{
+    min-height: 100vh;
+    background-image: url(backgroundimg.jpg);
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+}
