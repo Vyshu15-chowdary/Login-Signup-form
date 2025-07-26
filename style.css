@@ -132,4 +132,15 @@ a:hover{
         border-radius: 0;
     }
 }
+form div.incorrect label{
+    background-color: rgb(226, 19, 19);
+
+}
+form div.incorrect input{
+    border-color: rgb(226, 19, 19);
+}
+#error-message{
+    color:rgb(226, 19, 19);
+}
+
    
